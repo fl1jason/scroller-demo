@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.parallax {
+    /* The image used */
+    background-image: url("./road.jpeg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+    width: 300px;
+  
+    /* Create the parallax scrolling effect */
+    background-position: center;
+  }
+
+  main {
+   display: flex;
+  }
+
+  #content {
+      width: 90%;
+      padding: 10px;
+  }
+
+  #car {
+      background-image: url("car.png");
+      width: 256px;
+      height: 256px;
+      transform: rotateX(180deg);
+      position: relative;
+  }
